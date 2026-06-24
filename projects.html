@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laurin Gloor - Projects</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">Laurin Gloor</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About me</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="skills.html">ICT Skills</a></li>
+                <li><a href="documents.html">Documents</a></li>
+                <li><button onclick="toggleTheme()" style="background: none; border: none; cursor: pointer; font-size: 1.1rem; padding: 0.5rem;">🌓</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>Projects</h2>
+            <p style="margin-bottom: 2rem; color: #94a3b8;">Hier präsentierte ich eine Auswahl meiner schulischen und privaten Projekte.</p>
+
+            <!-- 1. MIT LINK: TODO SPA -->
+            <div class="card">
+                <h3>Todo Single Page Application (SPA)</h3>
+                <p>Ein interaktives Webprojekt, entwickelt mit HTML, CSS und nativem JavaScript. Die Applikation strukturiert Aufgaben nach dem Eisenhower-Prinzip (Prioritäten-Matrix) und nutzt das LocalStorage-API zur persistenten Datenspeicherung sowie eine dynamische Client-seitige Suchfunktion.</p>
+                <a href="https://github.com/frostigerfrosty/SPA-Projekt" target="_blank" class="btn">Code ansehen (GitHub)</a>
+            </div>
+
+            <!-- 2. MIT LINK: BÜCHERANTIQUARIAT -->
+            <div class="card">
+                <h3>Bücherantiquariat</h3>
+                <p>Ein dynamisches Web-Projekt zur Verwaltung eines Bücherantiquariats, entwickelt mit PHP und MySQL. Es beinhaltet eine relationale Datenbankstruktur zur Erfassung des Buchbestands sowie Backend-Logik zur Anzeige, Verwaltung und Filterung der Daten über einen lokalen XAMPP-Server.</p>
+                <a href="https://github.com/frostigerfrosty/buecherantiquariat" target="_blank" class="btn">Code ansehen (GitHub)</a>
+            </div>
+
+            <!-- 3. OHNE LINK: BEWERBUNGSPROFIL -->
+            <div class="card">
+                <h3>Dieses Online-Bewerbungsprofil</h3>
+                <p>Erstellt als IDAF-Projekt im Rahmen der IMS-Ausbildung zur Präsentation meiner Qualifikationen für die anstehende Praktikumssuche.</p>
+            </div>
+
+            <!-- 4. OHNE LINK: SNAKE (IN ARBEIT) -->
+            <div class="card" style="border-left: 4px solid #f59e0b;">
+                <h3>Retro-Game "Snake" (Privatprojekt – In Arbeit)</h3>
+                <p>Ein eigenständiges Freizeitprojekt, das ich aktuell in Python unter Verwendung der Pygame-Bibliothek entwickle. Momentan arbeite ich an der grundlegenden Spiellogik und den mathematischen Berechnungen zur Screen-Positionierung. Das Projekt befindet sich noch in der aktiven Entwicklungs- und Debugging-Phase, um Schritt für Schritt die finale Spielmechanik aufzubauen.</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Laurin Gloor. Erstellt für das IDAF IV Modul.</p>
+    </footer>
+
+</body>
+</html>

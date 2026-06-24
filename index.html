@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laurin Gloor - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">Laurin Gloor</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="skills.html">ICT Skills</a></li>
+                <li><a href="documents.html">Documents</a></li>
+                <li><button onclick="toggleTheme()" style="background: none; border: none; cursor: pointer; font-size: 1.1rem; padding: 0.5rem;">🌓</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        
+        <section>
+            <div class="hero-container">
+                <img src="laurin.png" alt="Laurin Gloor" class="hero-avatar">
+                <div class="hero-text">
+                    <h1>Laurin Gloor</h1>
+                    <div class="subtitle">Informatikmittelschüler (IMS) & Entwickler</div>
+                    <p>Willkommen auf meinem persönlichen Entwickler-Portfolio. Hier dokumentiere ich meine Projekte, erworbenen ICT-Kompetenzen und schulischen Arbeiten aus der IMS-Ausbildung.</p>
+                </div>
+            </div>
+            
+            <!-- FIX: Inline-Styles entfernt für funktionierenden Light Mode -->
+            <div class="kurzprofil-box">
+                Ich bin ein ehrgeiziger und lösungsorientierter Informatikmittelschüler mit einem starken Fokus auf Applikationsentwicklung. Meine Stärken liegen im logisch-analytischen Denken sowie in der hartnäckigen Fehlersuche bei komplexen Programmierprojekten. Für mein anstehendes Praktikum suche ich ein Umfeld, in dem ich meine Kenntnisse im Web-Engineering und in Unix-Systemen gewinnbringend einsetzen kann.
+            </div>
+
+            <h3 style="margin-top: 2rem; margin-bottom: 0.75rem;">Schnellnavigation</h3>
+            <div class="cta-buttons">
+                <a href="about.html" class="btn">About me</a>
+                <a href="projects.html" class="btn btn-secondary">Projects</a>
+                <a href="skills.html" class="btn">ICT Skills</a>
+                <a href="documents.html" class="btn btn-secondary">Documents</a>
+            </div>
+        </section>
+
+        <section>
+            <h2>Schwerpunkte & Ausrichtung</h2>
+            <div class="fact-grid">
+                <div class="fact-card">
+                    <h3>Software Dev</h3>
+                    <p>Objektorientierte Programmierung mit Java, Skripting und Algorithmen in Python.</p>
+                </div>
+                <div class="fact-card">
+                    <h3>Web Engineering</h3>
+                    <p>Moderne Interfaces mit HTML5, CSS3 Grid/Flexbox sowie dynamische Logik mit JavaScript.</p>
+                </div>
+                <div class="fact-card">
+                    <h3>Systems</h3>
+                    <p>Erfahrung im Umgang mit Windows-Umgebungen und Unix-basierten Systemen (Arch Linux).</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Aktuelle Projekte</h2>
+            <div class="fact-grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+                <div class="card" style="margin-bottom: 0; display: flex; flex-direction: column; justify-content: space-between;">
+                    <div>
+                        <h3 style="margin-top: 0;">IDAF IV Portfolio</h3>
+                        <p style="color: #94a3b8; font-size: 0.95rem; margin-bottom: 1rem;">Dieses responsive, passwortgeschützte Web-Portfolio zur Demonstration meiner ICT- und Dokumenten-Struktur.</p>
+                    </div>
+                    <a href="projects.html" class="btn" style="width: fit-content; font-size: 0.85rem; padding: 0.4rem 0.8rem;">Projekte ansehen</a>
+                </div>
+                
+                <div class="card" style="margin-bottom: 0; display: flex; flex-direction: column; justify-content: space-between;">
+                    <div>
+                        <h3 style="margin-top: 0;">Interactive Apps</h3>
+                        <p style="color: #94a3b8; font-size: 0.95rem; margin-bottom: 1rem;">Entwicklung kleinerer Games und interaktiver Visualisierungen mittels Python (Pygame) und JavaScript-Bibliotheken.</p>
+                    </div>
+                    <a href="projects.html" class="btn btn-secondary" style="width: fit-content; font-size: 0.85rem; padding: 0.4rem 0.8rem;">Details</a>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Laurin Gloor. Erstellt für das IDAF IV Modul.</p>
+    </footer>
+
+</body>
+</html>
